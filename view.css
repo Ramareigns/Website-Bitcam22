@@ -1,0 +1,102 @@
+* {
+    
+    font-family:"Courier New", Courier, monospace;
+}
+
+.title{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+
+}
+
+
+ .room1 {
+     
+     font-size: 25px;
+     font-weight:bold;
+     margin-left: 150px;
+     background-color: rgb(194, 183, 183);
+     border-radius: 15px;
+     width:75vw;
+     height:130px;
+     margin-bottom: 50px;
+     
+ }
+ .room1 p{
+    position:fixed;
+    padding-left: 50px;
+ }
+
+.but1{
+    position: absolute;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-left: 50vw;
+    margin-top: 50;
+    color: green;
+    background-color: greenyellow;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.room2 {
+     
+    font-size: 25px;
+    font-weight:bold;
+    margin-left: 150px;
+    background-color: rgb(194, 183, 183);
+    border-radius: 15px;
+    width:75vw;
+    height:130px;
+    margin-bottom: 50px;
+}
+.room2 p{
+   position:fixed;
+   padding-left: 50px;
+}
+
+.but2{
+   position: absolute;
+   display: flex;
+   align-items: right;
+   justify-content: right;
+   margin-left: 50vw;
+   margin-top: 50;
+   color: green;
+   background-color: greenyellow;
+   font-size: 30px;
+   border-radius: 10px;
+}
+.room3 {
+     
+    font-size: 25px;
+    font-weight:bold;
+    margin-left: 150px;
+    background-color: rgb(194, 183, 183);
+    border-radius: 15px;
+    width:75vw;
+    height:130px;
+    
+}
+.room3 p{
+   position:fixed;
+   padding-left: 50px;
+}
+
+.but3{
+   position: absolute;
+   display: flex;
+   align-items: right;
+   justify-content: right;
+   margin-left:50vw;
+   margin-top: 50;
+   color: blackgo;
+   background-color: rgb(255, 72, 72);
+   font-size: 30px;
+   border-radius: 10px;
+}
