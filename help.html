@@ -1,0 +1,113 @@
+<html> 
+<!DOCTYPE html>
+    <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    /* Style the body */
+   
+
+    body {
+      font-family: garamond;
+      margin: 0;
+      padding: 0;
+      border: 5px solid #ffe54c; 
+    }
+    
+    /* Header/Logo Title */
+    .header {
+      padding: 0;
+      text-align: center; 
+      background: #cf0000;
+      color: rgb(0, 0, 0);
+      
+    }
+
+    .h1{
+        padding-top: 45px;
+        font-size: 55px;
+    }
+    .h2{
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+
+    
+    
+   
+    /* CSS */
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative; left: 777px;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-52:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }
+   
+   
+    /* Page Content */
+    .content {padding: 45px;}
+    </style>
+    </head>
+  
+   
+   
+   
+    <!-- HTML !-->
+
+    
+   <body>
+    
+    <div class="header">
+      <h1 class = "h1">Help</h1>
+        <p class ="h2">website name</p>
+        
+        
+      </div>
+    
+    <div class="content">
+      <h1>How to Use Our Database</h1>
+      <p>To begin your search of available classrooms at a specific time, or a wholesale search for any open rooms, you first need to select a building
+         and/or a time.</p>
+      <p>In selecting only the time, you will get a broad and universal search of all available rooms at the chosen time. Selecting both a classroom and a time 
+         will allow for a fixed and specified time, for a club meeting or another particular activity. </p>
+      <p>Most common errors when utilising the directory is in the building name, time, or classroom ID. Make sure it is the correct time, including AM and PM. 
+         As well as correct IDs of rooms and/ or buildings.</p>
+    </div>
+    
+    </body>
+    
+    <button class="button-52" onclick="history.back()">Go Back</button>
+
+     </html>
