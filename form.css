@@ -59,7 +59,8 @@
 #email{
     width: 500px;
     height:35px;
-    margin:20px 0px;
+    margin-top:20px;
+    margin-bottom: 50px;
     font-size:20px;
 }
 
@@ -67,4 +68,5 @@
     font-size: 25px;
     font-weight: bold;
     border-radius: 10px;
+    
 }
