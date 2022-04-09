@@ -1,5 +1,5 @@
 *{
-    font-family: "Courier New", Courier, monospace;
+   
 }
 .frm{
     color: white;
@@ -11,6 +11,7 @@
 
 }
 .infoForm {
+    font-family: "Courier New", Courier, monospace;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -47,6 +48,18 @@
     width: 500px;
     height:35px;
     margin-bottom:50px;
+    font-size:20px;
+}
+#pnumber{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#email{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
     font-size:20px;
 }
 
