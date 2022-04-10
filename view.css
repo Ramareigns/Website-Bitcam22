@@ -28,7 +28,7 @@
      
  }
  .room1 p{
-    position:fixed;
+    position:absolute;
     padding-left: 50px;
  }
 
@@ -76,6 +76,8 @@
     }
   }
 
+
+  
 .room2 {
      
     font-size: 25px;
@@ -86,11 +88,13 @@
     width:75vw;
     height:130px;
     margin-bottom: 50px;
+    
 }
 .room2 p{
-   position:fixed;
+   position:absolute;
    padding-left: 50px;
 }
+
 .but2{
     font-size: 30px;
     font-weight: 300;
@@ -110,70 +114,10 @@
     justify-content: right;
     margin-left: 50vw;
     margin-top: 30;
+    
 
 }
 .but2:after {
-    content: "";
-    background-color: greenyellow;
-    width: 175px;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
-  }
-  
-  .but2:hover:after {
-    top: 0px;
-    left: 0px;
-  }
-  
-  @media (min-width: 768px) {
-    .button-52 {
-      padding: 13px 50px 13px;
-    }
-  }
-
-  
-.room3 {
-     
-    font-size: 25px;
-    font-weight:bold;
-    margin-left: 150px;
-    border: 5px solid grey ;
-    border-radius: 15px;
-    width:75vw;
-    height:130px;
-    
-}
-.room3 p{
-   position:fixed;
-   padding-left: 50px;
-}
-
-.but3{
-    font-size: 30px;
-    font-weight: 300;
-    width: 175px;
-    letter-spacing: 1px;
-    padding: 13px 20px 13px;
-    margin-right: 20px;
-    outline: 0;
-    border: 1px solid black;
-    cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    align-items: right;
-    justify-content: right;
-    margin-left: 50vw;
-    margin-top: 30;
-
-}
-.but3:after {
     content: "";
     background-color: red;
     width: 175px;
@@ -185,7 +129,7 @@
     transition: 0.2s;
   }
   
-  .but3:hover:after {
+  .but2:hover:after {
     top: 0px;
     left: 0px;
   }
