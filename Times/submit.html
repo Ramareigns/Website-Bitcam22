@@ -1,0 +1,71 @@
+<html>
+    <title>Thank You</title>
+    <style>
+        body {
+            background-color:rgb(226, 24, 51);
+            font-family: "Courier New", Courier, monospace;
+        }
+        .pic {
+            text-align: center;
+            display:block;
+            padding-top: 100px;
+        }
+        .fText {
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+        .last {
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            margin:10px 700px ;
+            width: 150px;
+            letter-spacing: 1px;
+            padding: 13px 20px 13px;
+            background-color: rgba(0, 0, 0, 0);
+            border:1px solid black;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            cursor: pointer;
+            outline: 0;
+            position: relative;
+        }
+        .last:after {
+            content: "";
+            background-color: #ffe54c;
+            width: 150px;
+            z-index: -1;
+            position: absolute;
+            height: 100%;
+            top: 7px;
+            left: 7px;
+            transition: 0.2s;
+        }
+
+        .last:hover:after {
+            top: 0px;
+            left: 0px;
+    }
+
+    @media (min-width: 768px) {
+        .button-52 {
+        padding: 13px 50px 13px;
+        }
+    }
+    </style>
+    <body>
+        <div class = "pic">
+            <img style = position:relative; Up:100px src = "class_finder.png" alt = "logo" width="250" height="250" >
+        </div>
+        <h1 class = "fText">Thank You For Your Response!</h1>
+        
+            
+            <a href ="index.html">
+                <Button class= "last">Home</Button>
+            </a>
+
+       
+    </body>
+</html>
