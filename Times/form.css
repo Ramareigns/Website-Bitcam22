@@ -1,0 +1,72 @@
+*{
+   
+}
+.frm{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+
+}
+.infoForm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    border-radius:10px;
+    size: 100;
+}
+
+#fname{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#lname{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#hMany{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#tFrom{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#tTo{
+    width: 500px;
+    height:35px;
+    margin-bottom:50px;
+    font-size:20px;
+}
+#pnumber{
+    width: 500px;
+    height:35px;
+    margin:20px 0px;
+    font-size:20px;
+}
+#email{
+    width: 500px;
+    height:35px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    font-size:20px;
+}
+
+#submit{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}

@@ -152,6 +152,13 @@ body {
   color: white;
   border: none;
 }
+.footCR{
+  position: absolute;
+  bottom: -15;
+  left: 0;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
 
 html,
 body {
